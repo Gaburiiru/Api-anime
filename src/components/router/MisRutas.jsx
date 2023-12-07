@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
 import Home from "../pages/Home";
@@ -13,20 +13,14 @@ export const MisRutas = () => {
   const [dato, setDato] = useState([]);
   const [search, setSearch] = useState("");
   const [orden, setOrden] = useState("");
+
   return (
     <BrowserRouter>
       <Header />
       <Routes>
         <Route
-          index
-          element={
-            <Home
-              dato={dato}
-              orden={orden}
-              setSearch={setSearch}
-              setOrden={setOrden}
-            />
-          }
+          path="/"
+          element={<Navigate to="/Home" replace />}
         />
         <Route
           path="/Home"
