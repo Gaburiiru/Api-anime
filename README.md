@@ -7,4 +7,4 @@ La búsqueda se realiza a través de la API de Jikan.moe, y los resultados se pr
 El objetivo principal de este proyecto es ofrecer una interfaz intuitiva y atractiva para que los amantes del anime puedan acceder fácilmente a información relevante sobre sus series y películas favoritas.
 
 # link del proyecto:
-https://api-mapa-con-react.netlify.app/
+https://api-anime-jikan.netlify.app/
