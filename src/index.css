@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("./assets/img/background.gif");
+  background-repeat: no-repeat; /* la imagen no se repite */
+  background-size: cover; /* la imagen cubre toda la pantalla */
+  background-attachment: fixed; /* la imagen de fondo esta fija */
+}
