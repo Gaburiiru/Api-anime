@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
-import Home from "../pages/home";
+import Home from "../pages/Home";
 import Lista from "../pages/Lista";
 import CardAnime from "../pages/CardAnime";
 import Default from "../pages/Default";
